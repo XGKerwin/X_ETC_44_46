@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="600dp"
+        android:layout_height="350dp"
+        android:background="@drawable/bai_hei"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="@drawable/bai_hei"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的充值"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/cha"
+                    android:padding="10dp"
+                    android:id="@+id/dia_back"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="50dp"
+                >
+
+                <EditText
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:id="@+id/ed_jine"
+                    android:inputType="number"
+                    android:maxLength="2"
+                    android:hint="请输入充值的数额"
+                    android:background="@drawable/bai_hei"
+                    />
+
+                <TextView
+                    android:textSize="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="元"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            >
+
+            <Button
+                android:id="@+id/btn_queding"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="确定"
+                android:textSize="25dp"
+                android:background="@drawable/hui_yuan"
+                />
+
+
+            <Button
+                android:id="@+id/btn_quxiao"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="取消"
+                android:textSize="25dp"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/hui_yuan"
+                />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

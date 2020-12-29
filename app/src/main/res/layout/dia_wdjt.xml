@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="800dp"
+    android:layout_height="450dp"
+    android:background="@drawable/bai_hei"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/bai_hei">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:textColor="#000"
+            android:text="配置设置"
+            android:layout_marginLeft="50dp" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/cha"
+            android:layout_marginLeft="550dp"
+            android:scaleType="fitXY"
+            android:layout_marginRight="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:textColor="#000"
+            android:text="红灯："
+            android:layout_marginLeft="150dp"/>
+
+        <EditText
+            android:id="@+id/pz_hong"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bai_hei"
+            android:textSize="32sp"
+            android:singleLine="true"
+            android:inputType="number"
+            android:textColor="#000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:textColor="#000"
+            android:text="秒"
+            android:layout_marginLeft="15dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:textColor="#000"
+            android:text="黄灯："
+            android:layout_marginLeft="150dp"/>
+
+        <EditText
+            android:id="@+id/pz_huang"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bai_hei"
+            android:textSize="32sp"
+            android:singleLine="true"
+            android:inputType="number"
+            android:textColor="#000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:textColor="#000"
+            android:text="秒"
+            android:layout_marginLeft="15dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:textColor="#000"
+            android:text="绿灯："
+            android:layout_marginLeft="150dp"/>
+
+        <EditText
+            android:id="@+id/pz_lv"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bai_hei"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:textColor="#000"
+            android:text="秒"
+            android:layout_marginLeft="15dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/pz_qd"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/hui_yuan"
+            android:textSize="32sp"
+            android:textColor="#000"
+            android:text="确定"/>
+
+        <Button
+            android:id="@+id/pz_qx"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/hui_yuan"
+            android:textSize="32sp"
+            android:textColor="#000"
+            android:text="取消"
+            android:layout_marginLeft="200dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

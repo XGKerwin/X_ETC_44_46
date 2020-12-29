@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    >
+
+    <include layout="@layout/biaoti"/>
+
+
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:hint="请输入用户名"
+        android:id="@+id/ed_user"
+        android:textSize="25dp"
+        android:background="@drawable/bai_hei"
+        android:layout_marginTop="100dp"
+        />
+
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:hint="请输入邮箱"
+        android:id="@+id/ed_email"
+        android:textSize="25dp"
+        android:background="@drawable/bai_hei"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码"
+        android:id="@+id/ed_pass1"
+        android:background="@drawable/bai_hei"
+        android:textSize="25dp"
+        android:password="true"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:hint="请确认密码"
+        android:password="true"
+        android:id="@+id/ed_pass2"
+        android:textSize="25dp"
+        android:background="@drawable/bai_hei"
+        android:layout_marginTop="50dp"
+        />
+
+    <Button
+        android:id="@+id/btn_denglu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提交"
+        android:textSize="25dp"
+        android:layout_marginTop="80dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="@drawable/bai_1_yuan"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/number"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textColor="#000"
+                android:padding="10dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/btn_qidong"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="启动"
+                android:background="@drawable/lv_hei"
+                android:textSize="30dp"
+                android:textColor="#000"
+                android:gravity="center"
+                android:padding="10dp"
+                />
+            <TextView
+                android:id="@+id/btn_tingzhi"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="停止"
+                android:background="@drawable/bai_hei"
+                android:textSize="30dp"
+                android:textColor="#000"
+                android:gravity="center"
+                android:padding="10dp"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        />
+
+
+</LinearLayout>
